@@ -40,3 +40,17 @@ p {
 #page-title > p {
     font-size: 1.25rem;
 }
+
+main {
+    min-height: 77.5rem;
+    background: linear-gradient(135deg, rgb(52, 49, 147) 0%, rgba(48,44,99,1) 100%);
+}
+
+.container {
+    margin: 3.125rem auto;
+
+    width: 22rem;
+    height: 21.125rem;
+
+    background-color: #FFFFFF;
+}
