@@ -42,12 +42,20 @@ p {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 3rem;
+
     min-height: 77.5rem;
     background: linear-gradient(135deg, rgb(52, 49, 147) 0%, rgba(48,44,99,1) 100%);
 }
 
 .container {
-    margin: 3.125rem auto;
+    /* margin: 3.125rem auto; */
 
     width: 22rem;
     height: 21.125rem;
@@ -58,7 +66,7 @@ main {
 }
 
 .container > img {
-    padding: 1.625rem 0 2rem 1.625rem;
+    padding: 1.625rem 0 1.5rem 1.625rem;
 }
 
 .container > h3 {
@@ -67,4 +75,99 @@ main {
 
 .container > p {
     padding: 0 1.625rem  1.625rem 1.625rem;
+}
+
+.contact {
+    min-height: 35.25rem;
+    padding: 4.875rem 2.5rem 4rem;
+
+    background-color: #F9F4FB;
+}
+
+.contact > h2 {
+    font-size: 2rem;
+    color: #B52184;
+    font-weight: 900;
+
+    padding-bottom: 2.625rem;
+}
+
+input {
+    all: unset;
+
+    font-weight: 600;
+    color: #312D64;
+
+    width: 17.625rem;
+    height: 2rem;
+    padding: 1rem 1rem 1rem 3.125rem;
+
+    margin-bottom: 1.2rem;
+    border-radius: 1rem;
+    border: 1.5px solid #312D64;
+}
+
+.name-input {
+    background-image: url(./assets/person.svg);
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 50%;
+}
+
+.email-input {
+    background-image: url(./assets/email.svg);
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 50%;
+}
+
+textarea {
+    all: unset;
+
+    font-weight: 600;
+    color: #312D64;
+
+    width: 19.75rem;
+    padding: 1rem;
+
+    border-radius: 1rem;
+    border: 1.5px solid #312D64;
+}
+
+button {
+    all: unset;
+
+    font-weight: 700;
+    color: #FFFFFF;
+
+    background: linear-gradient(135deg, rgb(52, 49, 147) 0%, rgba(48,44,99,1) 100%);
+
+    margin-top: 1.5rem;
+    padding: 0.625rem 1rem;
+
+    border-radius: 1rem;
+    border: 1.5px solid #312D64;
+
+
+}
+
+button:hover {
+    background: #26234f;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 4.875rem;
+
+    background: linear-gradient(135deg, rgb(52, 49, 147) 0%, rgba(48,44,99,1) 100%);
+}
+
+footer > p {
+    font-weight: 600;
+    color: #FFFFFF;
+
+    font-size: 1rem;
 }
