@@ -53,4 +53,18 @@ main {
     height: 21.125rem;
 
     background-color: #FFFFFF;
+
+    border-radius: 1.25rem;
+}
+
+.container > img {
+    padding: 1.625rem 0 2rem 1.625rem;
+}
+
+.container > h3 {
+    padding: 0 1.625rem .5rem 1.625rem;
+}
+
+.container > p {
+    padding: 0 1.625rem  1.625rem 1.625rem;
 }
