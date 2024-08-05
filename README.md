@@ -30,4 +30,6 @@ Com um formulário de contato totalmente personalizado ao fim da página.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/wQ5Oh8KwcyOe9vtLmB2xHc/Fotoblog-%E2%80%A2-Projeto-Explorer-(Community)?m=auto&t=BtSbAGVEnipC9BXt-6). by Rocketseat <br><br>É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/wQ5Oh8KwcyOe9vtLmB2xHc/Fotoblog-%E2%80%A2-Projeto-Explorer-(Community)?m=auto&t=BtSbAGVEnipC9BXt-6).<br>
+É necessário ter conta no [Figma](https://figma.com) para acessá-lo.<br>
+designed by Rocketseat
