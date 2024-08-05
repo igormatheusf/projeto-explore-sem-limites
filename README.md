@@ -11,7 +11,7 @@
 
 ## 🖥 Preview
 
-<im align="center" src="./assets/project-explore-sem-limites.jpg">
+<img align="center" src="./assets/project-explore-sem-limites.jpg">
 
 
 ## 🚀 Tecnologias
